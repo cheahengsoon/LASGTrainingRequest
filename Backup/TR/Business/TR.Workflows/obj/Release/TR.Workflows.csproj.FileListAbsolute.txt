@@ -1,0 +1,15 @@
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.Workflows.dll
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.Workflows.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Release\TR.Workflows.csprojResolveAssemblyReference.cache
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Release\TrainingWorkflowService.g.xaml
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Release\TR.Workflows_TrainingWorkflowService_BeforeInitializeComponentHelper.txt
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Release\_TR.Workflows.g.cs
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Release\TrainingWorkflowService.g.cs
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Release\TR.Workflows_TrainingWorkflowService_BeforeInitializeComponentHelper.cs
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Release\TR.Workflows.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Release\TR.Workflows.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Release\TR.Workflows.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Release\TR.Workflows.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Release\TR.Workflows_TrainingWorkflowService_CompiledExpressionRoot.cs
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Release\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Release\TR.Workflows.csproj.FileListAbsolute.txt

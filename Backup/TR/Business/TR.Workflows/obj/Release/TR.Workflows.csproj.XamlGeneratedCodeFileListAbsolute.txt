@@ -1,0 +1,4 @@
+obj\Release\_TR.Workflows.g.cs
+obj\Release\TrainingWorkflowService.g.cs
+obj\Release\TR.Workflows_TrainingWorkflowService_BeforeInitializeComponentHelper.cs
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Release\TR.Workflows_TrainingWorkflowService_CompiledExpressionRoot.cs

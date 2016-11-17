@@ -1,0 +1,4 @@
+C:\Users\es.cheah\Desktop\Backup\TR\Shared\TR.Entities\bin\x86\Debug\TR.Entities.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Shared\TR.Entities\bin\x86\Debug\TR.Entities.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Shared\TR.Entities\obj\x86\Debug\TR.Entities.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Shared\TR.Entities\obj\x86\Debug\TR.Entities.pdb

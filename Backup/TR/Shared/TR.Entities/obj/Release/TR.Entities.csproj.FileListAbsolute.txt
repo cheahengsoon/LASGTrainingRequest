@@ -1,0 +1,5 @@
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.Entities.dll
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.Entities.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Shared\TR.Entities\obj\Release\TR.Entities.csprojResolveAssemblyReference.cache
+C:\Users\es.cheah\Desktop\Backup\TR\Shared\TR.Entities\obj\Release\TR.Entities.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Shared\TR.Entities\obj\Release\TR.Entities.pdb

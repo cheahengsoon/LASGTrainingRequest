@@ -1,0 +1,9 @@
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Database\bin\Debug\TR.Database.dacpac
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Database\bin\Debug\TR.Database.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Database\bin\Debug\TR.Database.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Database\obj\x86\Debug\Model.xml
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Database\obj\x86\Debug\refactor.xml
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Database\obj\x86\Debug\postdeploy.sql
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Database\obj\x86\Debug\predeploy.sql
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Database\obj\x86\Debug\TR.Database.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Database\obj\x86\Debug\TR.Database.pdb
