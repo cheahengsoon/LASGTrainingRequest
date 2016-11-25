@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:6092/TrainingService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/TR.Entities" />
+  <xs:import schemaLocation="http://localhost:6092/TrainingService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/MK.Framework.ACE.Entities" />
+  <xs:element name="GetTraining">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tRequestID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTrainingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/TR.Entities" minOccurs="0" name="GetTrainingResult" nillable="true" type="q1:TrainingRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListTraining">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="currentPage" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListTrainingResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/TR.Entities" minOccurs="0" name="ListTrainingResult" nillable="true" type="q2:ArrayOfTrainingRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoginVerify">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoginVerifyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/MK.Framework.ACE.Entities" minOccurs="0" name="LoginVerifyResult" nillable="true" type="q3:User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,5 @@
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Entities.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Entities.pdb
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Shared\TR.Entities\obj\Debug\TR.Entities.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Shared\TR.Entities\obj\Debug\TR.Entities.pdb
+C:\Users\es.cheah\documents\visual studio 2015\Projects\TR\Shared\TR.Entities\obj\Debug\TR.Entities.csprojResolveAssemblyReference.cache

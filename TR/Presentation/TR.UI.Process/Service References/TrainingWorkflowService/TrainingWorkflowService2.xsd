@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/TR.Entities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/TR.Entities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:6092/TrainingWorkflowService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="TrainingRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CorrelationID" type="ser:guid" />
+      <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="RequestStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SubmitDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TRequestID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TrainingName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TrainingRequest" nillable="true" type="tns:TrainingRequest" />
+</xs:schema>

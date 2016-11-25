@@ -1,0 +1,5 @@
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Framework.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Framework.pdb
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Shared\TR.Framework\obj\Debug\TR.Framework.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Shared\TR.Framework\obj\Debug\TR.Framework.pdb
+C:\Users\es.cheah\documents\visual studio 2015\Projects\TR\Shared\TR.Framework\obj\Debug\TR.Framework.csprojResolveAssemblyReference.cache

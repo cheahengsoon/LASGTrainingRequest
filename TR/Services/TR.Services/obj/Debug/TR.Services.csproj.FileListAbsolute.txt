@@ -1,0 +1,6 @@
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Services.dll.config
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Services.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Services.pdb
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Services\TR.Services\obj\Debug\TR.Services.csprojResolveAssemblyReference.cache
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Services\TR.Services\obj\Debug\TR.Services.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Services\TR.Services\obj\Debug\TR.Services.pdb

@@ -1,0 +1,5 @@
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Workflows.Activities.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Workflows.Activities.pdb
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Workflows.Activities\obj\Debug\TR.Workflows.Activities.csprojResolveAssemblyReference.cache
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Workflows.Activities\obj\Debug\TR.Workflows.Activities.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Workflows.Activities\obj\Debug\TR.Workflows.Activities.pdb

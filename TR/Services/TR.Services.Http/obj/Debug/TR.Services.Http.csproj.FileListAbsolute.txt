@@ -1,0 +1,5 @@
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Services.Http.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Services.Http.pdb
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Services\TR.Services.Http\obj\Debug\TR.Services.Http.csprojResolveAssemblyReference.cache
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Services\TR.Services.Http\obj\Debug\TR.Services.Http.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Services\TR.Services.Http\obj\Debug\TR.Services.Http.pdb

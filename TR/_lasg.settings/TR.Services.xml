@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfClassModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ClassModel ClassName="TrainingService" IsUpdated="false" GenerateXmlComments="true" UseDefaultComments="true" XmlComment="Training service component." ProductName="TR.Services" ServiceNamespace="" FaultContractName="Fault" GenerateHandler="false" InstanceContextMode="PerCall" ConcurrencyMode="Multiple" HasHttpsEndpoint="false">
+    <NamespacesToImport>
+      <string>System</string>
+      <string>System.Collections.Generic</string>
+      <string>System.Collections.ObjectModel</string>
+      <string>System.ServiceModel</string>
+      <string>TR.Business</string>
+      <string>TR.Entities</string>
+      <string>MK.Framework.ACE.Entities</string>
+    </NamespacesToImport>
+    <Methods>
+      <MethodModel Name="Delay" ComponentName="TrainingComponent" Signature="Delay(TrainingRequest trainingRequest)" ReturnSignature="void" CallSignature="Delay(trainingRequest)" HandlesException="false" HasFaultContract="false" IsRest="false" RestRequestFormat="Xml" RestResponseFormat="Xml" RestBodyStyle="Bare" IsUpdated="false" XmlComment="Calls the Delay business method of the TrainingComponent.">
+        <Namespaces>
+          <string>TR.Entities</string>
+          <string>System</string>
+          <string>TR.Business</string>
+        </Namespaces>
+      </MethodModel>
+    </Methods>
+    <EndPoints>
+      <EndpointModel Name="basicHttpTrainingService" Address="http://localhost:9090/TrainingService" Binding="basicHttpBinding" IsUpdated="false" IsHttps="false" />
+    </EndPoints>
+  </ClassModel>
+</ArrayOfClassModel>

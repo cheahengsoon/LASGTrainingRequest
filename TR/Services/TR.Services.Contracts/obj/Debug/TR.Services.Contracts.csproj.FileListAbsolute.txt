@@ -1,0 +1,5 @@
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Services.Contracts.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Services.Contracts.pdb
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Services\TR.Services.Contracts\obj\Debug\TR.Services.Contracts.csprojResolveAssemblyReference.cache
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Services\TR.Services.Contracts\obj\Debug\TR.Services.Contracts.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Services\TR.Services.Contracts\obj\Debug\TR.Services.Contracts.pdb

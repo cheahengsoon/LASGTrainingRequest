@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="471b990d-2f78-4847-a791-9778e2630a14" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:6092/TrainingWorkflowService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TrainingWorkflowService.xsd" MetadataType="Schema" ID="52d0e830-d001-4026-b77c-6dfb9fe4f5e3" SourceId="1" SourceUrl="http://localhost:6092/TrainingWorkflowService.svc?xsd=xsd1" />
+    <MetadataFile FileName="TrainingWorkflowService1.xsd" MetadataType="Schema" ID="9e2ab650-2e99-44aa-82c5-b683b87c3b0d" SourceId="1" SourceUrl="http://localhost:6092/TrainingWorkflowService.svc?xsd=xsd0" />
+    <MetadataFile FileName="TrainingWorkflowService.disco" MetadataType="Disco" ID="eaf146f4-1849-4f19-a391-2c2ea0466c96" SourceId="1" SourceUrl="http://localhost:6092/TrainingWorkflowService.svc?disco" />
+    <MetadataFile FileName="TrainingWorkflowService2.xsd" MetadataType="Schema" ID="9f41ea63-b8ef-4a7d-aca3-f110ac3ad7f8" SourceId="1" SourceUrl="http://localhost:6092/TrainingWorkflowService.svc?xsd=xsd2" />
+    <MetadataFile FileName="TrainingWorkflowService.wsdl" MetadataType="Wsdl" ID="2bf02557-d5bc-4d7e-a3ed-29616ebe5eee" SourceId="1" SourceUrl="http://localhost:6092/TrainingWorkflowService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

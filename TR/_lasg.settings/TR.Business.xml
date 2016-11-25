@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfClassModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ClassModel ClassName="TrainingComponent" IsUpdated="false" GenerateXmlComments="true" UseDefaultComments="true" XmlComment="Training business component." ProductName="TR.Business">
+    <NamespacesToImport>
+      <string>System</string>
+      <string>System.Collections.Generic</string>
+      <string>System.Collections.ObjectModel</string>
+      <string>TR.Entities</string>
+      <string>TR.Data</string>
+    </NamespacesToImport>
+    <Methods>
+      <BusinessMethodModel IsUpdated="false" Name="ListTraining" XmlComment="ListTraining business method. " ReturnSignature="">
+        <AccessModifier>Public</AccessModifier>
+        <CallMethods>
+          <MethodModel Name="SelectPage" ComponentName="TrainingRequestDAC" ReturnSignature="List&lt;TrainingRequest&gt;" IsReturnSignature="false" TransactionBegin="false" TransactionEnd="false">
+            <Parameters>
+              <ParameterModel Type="int" Name="currentPage" IsInternallyDeclared="false" />
+            </Parameters>
+          </MethodModel>
+        </CallMethods>
+      </BusinessMethodModel>
+      <BusinessMethodModel IsUpdated="false" Name="Login" XmlComment="Login business method. " ReturnSignature="">
+        <AccessModifier>Public</AccessModifier>
+        <CallMethods>
+          <MethodModel Name="SelectById" ComponentName="UsersDAC" ReturnSignature="Users" IsReturnSignature="true" TransactionBegin="false" TransactionEnd="false">
+            <Parameters>
+              <ParameterModel Type="long" Name="userID" IsInternallyDeclared="false" />
+              <ParameterModel Type="string" Name="userName" IsInternallyDeclared="false" />
+              <ParameterModel Type="string" Name="password" IsInternallyDeclared="false" />
+            </Parameters>
+          </MethodModel>
+        </CallMethods>
+      </BusinessMethodModel>
+      <BusinessMethodModel IsUpdated="false" Name="Apply" XmlComment="Apply business method. " ReturnSignature="">
+        <AccessModifier>Public</AccessModifier>
+        <CallMethods>
+          <MethodModel Name="Create" ComponentName="TrainingRequestDAC" ReturnSignature="TrainingRequest" IsReturnSignature="true" TransactionBegin="false" TransactionEnd="false">
+            <Parameters>
+              <ParameterModel Type="TrainingRequest" Name="trainingRequest" IsInternallyDeclared="false" />
+            </Parameters>
+          </MethodModel>
+        </CallMethods>
+      </BusinessMethodModel>
+      <BusinessMethodModel IsUpdated="false" Name="Approve" XmlComment="Approve business method. " ReturnSignature="">
+        <AccessModifier>Public</AccessModifier>
+        <CallMethods>
+          <MethodModel Name="UpdateById" ComponentName="TrainingRequestDAC" ReturnSignature="void" IsReturnSignature="false" TransactionBegin="false" TransactionEnd="false">
+            <Parameters>
+              <ParameterModel Type="TrainingRequest" Name="trainingRequest" IsInternallyDeclared="false" />
+            </Parameters>
+          </MethodModel>
+        </CallMethods>
+      </BusinessMethodModel>
+      <BusinessMethodModel IsUpdated="false" Name="Cancel" XmlComment="Cancel business method. " ReturnSignature="">
+        <AccessModifier>Public</AccessModifier>
+        <CallMethods>
+          <MethodModel Name="UpdateById" ComponentName="TrainingRequestDAC" ReturnSignature="void" IsReturnSignature="false" TransactionBegin="false" TransactionEnd="false">
+            <Parameters>
+              <ParameterModel Type="TrainingRequest" Name="trainingRequest" IsInternallyDeclared="false" />
+            </Parameters>
+          </MethodModel>
+        </CallMethods>
+      </BusinessMethodModel>
+      <BusinessMethodModel IsUpdated="false" Name="ListTraining" XmlComment="ListTraining business method. " ReturnSignature="">
+        <AccessModifier>Public</AccessModifier>
+        <CallMethods>
+          <MethodModel Name="SelectPage" ComponentName="TrainingRequestDAC" ReturnSignature="List&lt;TrainingRequest&gt;" IsReturnSignature="false" TransactionBegin="false" TransactionEnd="false">
+            <Parameters>
+              <ParameterModel Type="int" Name="currentPage" IsInternallyDeclared="false" />
+            </Parameters>
+          </MethodModel>
+          <MethodModel Name="SelectById" ComponentName="TrainingRequestDAC" ReturnSignature="TrainingRequest" IsReturnSignature="false" TransactionBegin="false" TransactionEnd="false">
+            <Parameters>
+              <ParameterModel Type="string" Name="tRequestID" IsInternallyDeclared="false" />
+            </Parameters>
+          </MethodModel>
+        </CallMethods>
+      </BusinessMethodModel>
+      <BusinessMethodModel IsUpdated="false" Name="GetTraining" XmlComment="GetTraining business method. " ReturnSignature="">
+        <AccessModifier>Public</AccessModifier>
+        <CallMethods>
+          <MethodModel Name="SelectById" ComponentName="TrainingRequestDAC" ReturnSignature="TrainingRequest" IsReturnSignature="true" TransactionBegin="false" TransactionEnd="false">
+            <Parameters>
+              <ParameterModel Type="string" Name="tRequestID" IsInternallyDeclared="false" />
+            </Parameters>
+          </MethodModel>
+        </CallMethods>
+      </BusinessMethodModel>
+      <BusinessMethodModel IsUpdated="false" Name="Reject" XmlComment="Reject business method. " ReturnSignature="">
+        <AccessModifier>Public</AccessModifier>
+        <CallMethods>
+          <MethodModel Name="UpdateById" ComponentName="TrainingRequestDAC" ReturnSignature="void" IsReturnSignature="false" TransactionBegin="false" TransactionEnd="false">
+            <Parameters>
+              <ParameterModel Type="TrainingRequest" Name="trainingRequest" IsInternallyDeclared="false" />
+            </Parameters>
+          </MethodModel>
+        </CallMethods>
+      </BusinessMethodModel>
+      <BusinessMethodModel IsUpdated="false" Name="Delay" XmlComment="Delay business method. " ReturnSignature="">
+        <AccessModifier>Public</AccessModifier>
+        <CallMethods>
+          <MethodModel Name="UpdateById" ComponentName="TrainingRequestDAC" ReturnSignature="void" IsReturnSignature="false" TransactionBegin="false" TransactionEnd="false">
+            <Parameters>
+              <ParameterModel Type="TrainingRequest" Name="trainingRequest" IsInternallyDeclared="false" />
+            </Parameters>
+          </MethodModel>
+        </CallMethods>
+      </BusinessMethodModel>
+    </Methods>
+    <NonSuffixName>Training</NonSuffixName>
+  </ClassModel>
+</ArrayOfClassModel>
