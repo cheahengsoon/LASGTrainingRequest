@@ -1,0 +1,10 @@
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Data.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Data.pdb
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Data\TR.Data\obj\Debug\TR.Data.csprojResolveAssemblyReference.cache
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Data\TR.Data\obj\Debug\TR.Data.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Data\TR.Data\obj\Debug\TR.Data.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.Data.dll
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.Data.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Data\obj\Debug\TR.Data.csprojResolveAssemblyReference.cache
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Data\obj\Debug\TR.Data.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Data\obj\Debug\TR.Data.pdb

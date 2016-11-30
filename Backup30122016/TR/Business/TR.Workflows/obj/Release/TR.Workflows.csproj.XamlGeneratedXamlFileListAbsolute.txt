@@ -1,0 +1,2 @@
+obj\Release\TrainingWorkflowService.g.xaml
+obj\Release\TR.Workflows_TrainingWorkflowService_BeforeInitializeComponentHelper.txt

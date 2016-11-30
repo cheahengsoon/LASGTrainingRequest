@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfWorkflowModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <WorkflowModel ClassName="TrainingWorkflowService" IsUpdated="true" GenerateXmlComments="false" UseDefaultComments="false" ProductName="TR" ServiceContractName="ITrainingWorkflowService" ServiceNamespace="http://tempuri.org/" HasHttpsEndpoint="false">
+    <NamespacesToImport />
+    <Activities>
+      <ActivityModel ClassName="Apply" IsUpdated="false" GenerateXmlComments="true" UseDefaultComments="true" XmlComment="Apply workflow activity." ProductName="TR.Workflows" ActivityType="CodeActivity" ServiceContractName="ITrainingWorkflowService" ServiceNamespace="http://tempuri.org/" WrapperOnly="false" WrapperType="ReceiveAndSendReply" WrapperActivityName="ApplyReceiveSend" CanCreateInstance="true" PersistBeforeSend="true" EmitTrackingRecord="None">
+        <NamespacesToImport>
+          <string>System.Collections.Generic</string>
+          <string>TR.Entities</string>
+          <string>TR.Business</string>
+        </NamespacesToImport>
+        <Methods>
+          <MethodModel Name="Apply" ComponentName="TrainingComponent" ReturnSignature="TrainingRequest" Namespaces="TR.Entities TR.Business">
+            <Parameters>
+              <ParameterModel Type="TrainingRequest" Name="trainingRequest" IncludeInDesigner="true" IsInternallyDeclared="false" IsReturnParameter="false" ArgumentType="In" />
+              <ParameterModel Type="TrainingRequest" Name="applyResult" IncludeInDesigner="true" IsInternallyDeclared="false" IsReturnParameter="true" ArgumentType="Out" />
+            </Parameters>
+          </MethodModel>
+        </Methods>
+        <Declarations>
+          <ParameterModel Type="TrainingRequest" Name="applyResult" IncludeInDesigner="true" IsInternallyDeclared="false" IsReturnParameter="true" ArgumentType="Out" />
+          <ParameterModel Type="TrainingRequest" Name="trainingRequest" IncludeInDesigner="true" IsInternallyDeclared="false" IsReturnParameter="false" ArgumentType="In" />
+        </Declarations>
+      </ActivityModel>
+      <ActivityModel ClassName="Approve" IsUpdated="false" GenerateXmlComments="true" UseDefaultComments="true" XmlComment="Approve workflow activity." ProductName="TR.Workflows" ActivityType="CodeActivity" ServiceContractName="ITrainingWorkflowService" ServiceNamespace="http://tempuri.org/" WrapperOnly="false" WrapperType="ReceiveAndSendReply" WrapperActivityName="ApproveReceiveSend" CanCreateInstance="true" PersistBeforeSend="true" EmitTrackingRecord="None">
+        <NamespacesToImport>
+          <string>System.Collections.Generic</string>
+          <string>TR.Entities</string>
+          <string>TR.Business</string>
+        </NamespacesToImport>
+        <Methods>
+          <MethodModel Name="Approve" ComponentName="TrainingComponent" ReturnSignature="void" Namespaces="TR.Entities System TR.Business">
+            <Parameters>
+              <ParameterModel Type="TrainingRequest" Name="trainingRequest" IncludeInDesigner="true" IsInternallyDeclared="false" IsReturnParameter="false" ArgumentType="In" />
+            </Parameters>
+          </MethodModel>
+        </Methods>
+        <Declarations>
+          <ParameterModel Type="TrainingRequest" Name="trainingRequest" IncludeInDesigner="true" IsInternallyDeclared="false" IsReturnParameter="false" ArgumentType="In" />
+        </Declarations>
+      </ActivityModel>
+      <ActivityModel ClassName="Reject" IsUpdated="false" GenerateXmlComments="true" UseDefaultComments="true" XmlComment="Reject workflow activity." ProductName="TR.Workflows" ActivityType="CodeActivity" ServiceContractName="ITrainingWorkflowService" ServiceNamespace="http://tempuri.org/" WrapperOnly="false" WrapperType="ReceiveAndSendReply" WrapperActivityName="RejectReceiveSend" CanCreateInstance="false" PersistBeforeSend="true" EmitTrackingRecord="None">
+        <NamespacesToImport>
+          <string>System.Collections.Generic</string>
+          <string>TR.Entities</string>
+          <string>TR.Business</string>
+        </NamespacesToImport>
+        <Methods>
+          <MethodModel Name="Reject" ComponentName="TrainingComponent" ReturnSignature="void" Namespaces="TR.Entities System TR.Business">
+            <Parameters>
+              <ParameterModel Type="TrainingRequest" Name="trainingRequest" IncludeInDesigner="true" IsInternallyDeclared="false" IsReturnParameter="false" ArgumentType="In" />
+            </Parameters>
+          </MethodModel>
+        </Methods>
+        <Declarations>
+          <ParameterModel Type="TrainingRequest" Name="trainingRequest" IncludeInDesigner="true" IsInternallyDeclared="false" IsReturnParameter="false" ArgumentType="In" />
+        </Declarations>
+      </ActivityModel>
+      <ActivityModel ClassName="Delay" IsUpdated="false" GenerateXmlComments="true" UseDefaultComments="true" XmlComment="Delay workflow activity." ProductName="TR.Workflows" ActivityType="CodeActivity" ServiceContractName="ITrainingWorkflowService" ServiceNamespace="http://tempuri.org/" WrapperOnly="false" WrapperType="ReceiveAndSendReply" WrapperActivityName="DelayReceiveSend" CanCreateInstance="false" PersistBeforeSend="true" EmitTrackingRecord="None">
+        <NamespacesToImport>
+          <string>System.Collections.Generic</string>
+          <string>TR.Entities</string>
+          <string>TR.Business</string>
+        </NamespacesToImport>
+        <Methods>
+          <MethodModel Name="Delay" ComponentName="TrainingComponent" ReturnSignature="void" Namespaces="TR.Entities System TR.Business">
+            <Parameters>
+              <ParameterModel Type="TrainingRequest" Name="trainingRequest" IncludeInDesigner="true" IsInternallyDeclared="false" IsReturnParameter="false" ArgumentType="In" />
+            </Parameters>
+          </MethodModel>
+        </Methods>
+        <Declarations>
+          <ParameterModel Type="TrainingRequest" Name="trainingRequest" IncludeInDesigner="true" IsInternallyDeclared="false" IsReturnParameter="false" ArgumentType="In" />
+        </Declarations>
+      </ActivityModel>
+    </Activities>
+    <EndPoints>
+      <EndpointModel Name="basicHttpTrainingWorkflowService" Address="http://localhost:9090/TrainingWorkflowService" Binding="basicHttpBinding" IsUpdated="true" IsHttps="false" />
+    </EndPoints>
+  </WorkflowModel>
+</ArrayOfWorkflowModel>

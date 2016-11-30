@@ -1,0 +1,6 @@
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.UI.Process.dll.config
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.UI.Process.dll
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.UI.Process.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Presentation\TR.UI.Process\obj\Release\TR.UI.Process.csprojResolveAssemblyReference.cache
+C:\Users\es.cheah\Desktop\Backup\TR\Presentation\TR.UI.Process\obj\Release\TR.UI.Process.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Presentation\TR.UI.Process\obj\Release\TR.UI.Process.pdb

@@ -1,0 +1,6 @@
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.Services.dll.config
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.Services.dll
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.Services.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Services\TR.Services\obj\Release\TR.Services.csprojResolveAssemblyReference.cache
+C:\Users\es.cheah\Desktop\Backup\TR\Services\TR.Services\obj\Release\TR.Services.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Services\TR.Services\obj\Release\TR.Services.pdb

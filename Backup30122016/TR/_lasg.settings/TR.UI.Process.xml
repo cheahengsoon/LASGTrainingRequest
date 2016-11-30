@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfClassModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ClassModel ClassName="TrainingController" IsUpdated="false" GenerateXmlComments="true" UseDefaultComments="true" XmlComment="Training controller component." ProductName="TR.UI.Process">
+    <NamespacesToImport>
+      <string>System</string>
+      <string>System.Collections.Generic</string>
+      <string>System.Collections.ObjectModel</string>
+      <string>System.ServiceModel</string>
+      <string>TR.Entities</string>
+      <string>TR.Services.Contracts</string>
+      <string>TR.UI.Process.TrainingService</string>
+      <string>TR.UI.Process.TrainingWorkflowService</string>
+      <string>MK.Framework.ACE.Entities</string>
+    </NamespacesToImport>
+    <Methods>
+      <MethodModel ServiceName="TrainingService" Name="GetUserPermission" OperationName="" FaultContractName="" ComponentName="ITrainingService" Signature="GetUserPermission(long userID, string policyId)" ReturnSignature="AccessPolicy" CallSignature="GetUserPermission(userID, policyId)" IsUpdated="false" XmlComment="Calls the GetUserPermission operation method in the TrainingService." />
+    </Methods>
+    <IsWorkflowService>false</IsWorkflowService>
+  </ClassModel>
+</ArrayOfClassModel>

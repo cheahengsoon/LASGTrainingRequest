@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="TrainingService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:6092/TrainingService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:6092/TrainingService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:6092/TrainingService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/TR.Entities" />
+      <xsd:import schemaLocation="http://localhost:6092/TrainingService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/MK.Framework.ACE.Entities" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ITrainingService_GetTraining_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTraining" />
+  </wsdl:message>
+  <wsdl:message name="ITrainingService_GetTraining_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTrainingResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITrainingService_ListTraining_InputMessage">
+    <wsdl:part name="parameters" element="tns:ListTraining" />
+  </wsdl:message>
+  <wsdl:message name="ITrainingService_ListTraining_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ListTrainingResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITrainingService_LoginVerify_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoginVerify" />
+  </wsdl:message>
+  <wsdl:message name="ITrainingService_LoginVerify_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginVerifyResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITrainingService_Export_InputMessage">
+    <wsdl:part name="parameters" element="tns:Export" />
+  </wsdl:message>
+  <wsdl:message name="ITrainingService_Export_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExportResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITrainingService_Delay_InputMessage">
+    <wsdl:part name="parameters" element="tns:Delay" />
+  </wsdl:message>
+  <wsdl:message name="ITrainingService_Delay_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DelayResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITrainingService_GetUserPermission_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserPermission" />
+  </wsdl:message>
+  <wsdl:message name="ITrainingService_GetUserPermission_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserPermissionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ITrainingService">
+    <wsdl:operation name="GetTraining">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITrainingService/GetTraining" message="tns:ITrainingService_GetTraining_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITrainingService/GetTrainingResponse" message="tns:ITrainingService_GetTraining_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ListTraining">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITrainingService/ListTraining" message="tns:ITrainingService_ListTraining_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITrainingService/ListTrainingResponse" message="tns:ITrainingService_ListTraining_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginVerify">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITrainingService/LoginVerify" message="tns:ITrainingService_LoginVerify_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITrainingService/LoginVerifyResponse" message="tns:ITrainingService_LoginVerify_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Export">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITrainingService/Export" message="tns:ITrainingService_Export_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITrainingService/ExportResponse" message="tns:ITrainingService_Export_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Delay">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITrainingService/Delay" message="tns:ITrainingService_Delay_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITrainingService/DelayResponse" message="tns:ITrainingService_Delay_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserPermission">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITrainingService/GetUserPermission" message="tns:ITrainingService_GetUserPermission_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITrainingService/GetUserPermissionResponse" message="tns:ITrainingService_GetUserPermission_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="basicHttpTrainingService" type="tns:ITrainingService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetTraining">
+      <soap:operation soapAction="http://tempuri.org/ITrainingService/GetTraining" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListTraining">
+      <soap:operation soapAction="http://tempuri.org/ITrainingService/ListTraining" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginVerify">
+      <soap:operation soapAction="http://tempuri.org/ITrainingService/LoginVerify" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Export">
+      <soap:operation soapAction="http://tempuri.org/ITrainingService/Export" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delay">
+      <soap:operation soapAction="http://tempuri.org/ITrainingService/Delay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserPermission">
+      <soap:operation soapAction="http://tempuri.org/ITrainingService/GetUserPermission" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TrainingService">
+    <wsdl:port name="basicHttpTrainingService" binding="tns:basicHttpTrainingService">
+      <soap:address location="http://localhost:6092/TrainingService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

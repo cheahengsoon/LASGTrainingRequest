@@ -1,0 +1,10 @@
+C:\Users\es.cheah\Documents\Visual Studio 2015\Projects\TR\Data\TR.Database\bin\Debug\TR.Database.dacpac
+C:\Users\es.cheah\Documents\Visual Studio 2015\Projects\TR\Data\TR.Database\bin\Debug\TR.Database.dll
+C:\Users\es.cheah\Documents\Visual Studio 2015\Projects\TR\Data\TR.Database\bin\Debug\TR.Database.pdb
+C:\Users\es.cheah\Documents\Visual Studio 2015\Projects\TR\Data\TR.Database\obj\Debug\TR.Database.dll
+C:\Users\es.cheah\Documents\Visual Studio 2015\Projects\TR\Data\TR.Database\obj\Debug\TR.Database.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Database\bin\Debug\TR.Database.dacpac
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Database\bin\Debug\TR.Database.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Database\bin\Debug\TR.Database.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Database\obj\Debug\TR.Database.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Data\TR.Database\obj\Debug\TR.Database.pdb

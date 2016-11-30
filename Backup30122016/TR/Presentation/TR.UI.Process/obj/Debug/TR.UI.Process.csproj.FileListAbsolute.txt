@@ -1,0 +1,12 @@
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.UI.Process.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.UI.Process.pdb
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Presentation\TR.UI.Process\obj\Debug\TR.UI.Process.csprojResolveAssemblyReference.cache
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Presentation\TR.UI.Process\obj\Debug\TR.UI.Process.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Presentation\TR.UI.Process\obj\Debug\TR.UI.Process.pdb
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.UI.Process.dll.config
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.UI.Process.dll.config
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.UI.Process.dll
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.UI.Process.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Presentation\TR.UI.Process\obj\Debug\TR.UI.Process.csprojResolveAssemblyReference.cache
+C:\Users\es.cheah\Desktop\Backup\TR\Presentation\TR.UI.Process\obj\Debug\TR.UI.Process.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Presentation\TR.UI.Process\obj\Debug\TR.UI.Process.pdb

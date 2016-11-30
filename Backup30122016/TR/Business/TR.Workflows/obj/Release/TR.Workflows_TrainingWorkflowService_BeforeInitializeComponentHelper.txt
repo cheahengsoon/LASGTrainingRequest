@@ -1,0 +1,2 @@
+TrainingWorkflowService.g.xaml
+XamlStaticHelperNamespace._XamlStaticHelper

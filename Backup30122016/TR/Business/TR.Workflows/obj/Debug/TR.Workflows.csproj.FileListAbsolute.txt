@@ -1,0 +1,30 @@
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Workflows.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Workflows.pdb
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Workflows\obj\Debug\TR.Workflows.csprojResolveAssemblyReference.cache
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Workflows\obj\Debug\TrainingWorkflowService.g.xaml
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Workflows\obj\Debug\TR.Workflows_TrainingWorkflowService_BeforeInitializeComponentHelper.txt
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Workflows\obj\Debug\_TR.Workflows.g.cs
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Workflows\obj\Debug\TrainingWorkflowService.g.cs
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Workflows\obj\Debug\TR.Workflows_TrainingWorkflowService_BeforeInitializeComponentHelper.cs
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Workflows\obj\Debug\TR.Workflows.csproj.XamlGeneratedCodeFileListAbsolute.txt
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Workflows\obj\Debug\TR.Workflows.csproj.XamlGeneratedXamlFileListAbsolute.txt
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Workflows\obj\Debug\TR.Workflows.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Workflows\obj\Debug\TR.Workflows.pdb
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Workflows\obj\Debug\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
+C:\Users\es.cheah\Documents\Visual Studio 2015\Projects\TR\Business\TR.Workflows\obj\Debug\TR.Workflows_TrainingWorkflowService_CompiledExpressionRoot.cs
+C:\Users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Workflows\obj\Debug\TR.Workflows.csproj.FileListAbsolute.txt
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.Workflows.dll
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.Workflows.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Debug\TR.Workflows.csprojResolveAssemblyReference.cache
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Debug\TrainingWorkflowService.g.xaml
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Debug\TR.Workflows_TrainingWorkflowService_BeforeInitializeComponentHelper.txt
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Debug\_TR.Workflows.g.cs
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Debug\TrainingWorkflowService.g.cs
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Debug\TR.Workflows_TrainingWorkflowService_BeforeInitializeComponentHelper.cs
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Debug\TR.Workflows.csproj.XamlGeneratedCodeFileListAbsolute.txt
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Debug\TR.Workflows.csproj.XamlGeneratedXamlFileListAbsolute.txt
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Debug\TR.Workflows.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Debug\TR.Workflows.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Debug\TR.Workflows_TrainingWorkflowService_CompiledExpressionRoot.cs
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Debug\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Workflows\obj\Debug\TR.Workflows.csproj.FileListAbsolute.txt

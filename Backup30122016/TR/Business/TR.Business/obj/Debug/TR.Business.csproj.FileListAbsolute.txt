@@ -1,0 +1,10 @@
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Business.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\bin\TR.Business.pdb
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Business\obj\Debug\TR.Business.csprojResolveAssemblyReference.cache
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Business\obj\Debug\TR.Business.dll
+c:\users\es.cheah\documents\visual studio 2015\Projects\TR\Business\TR.Business\obj\Debug\TR.Business.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.Business.dll
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.Business.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Business\obj\Debug\TR.Business.csprojResolveAssemblyReference.cache
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Business\obj\Debug\TR.Business.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Business\TR.Business\obj\Debug\TR.Business.pdb

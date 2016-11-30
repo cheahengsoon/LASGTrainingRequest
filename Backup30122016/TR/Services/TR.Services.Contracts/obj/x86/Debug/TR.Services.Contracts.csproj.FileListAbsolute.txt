@@ -1,0 +1,8 @@
+C:\Users\es.cheah\Desktop\Backup\TR\Services\TR.Services.Contracts\bin\x86\Debug\TR.Services.Contracts.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Services\TR.Services.Contracts\bin\x86\Debug\TR.Services.Contracts.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Services\TR.Services.Contracts\bin\x86\Debug\MK.Framework.ACE.Entities.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Services\TR.Services.Contracts\bin\x86\Debug\TR.Entities.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Services\TR.Services.Contracts\bin\x86\Debug\TR.Entities.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Services\TR.Services.Contracts\obj\x86\Debug\TR.Services.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\es.cheah\Desktop\Backup\TR\Services\TR.Services.Contracts\obj\x86\Debug\TR.Services.Contracts.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Services\TR.Services.Contracts\obj\x86\Debug\TR.Services.Contracts.pdb

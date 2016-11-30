@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\CompiledWebSite</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Apply.aspx">
+      <publishTime>11/14/2016 18:41:52</publishTime>
+    </File>
+    <File Include="ApproveReject.aspx">
+      <publishTime>11/14/2016 19:47:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>08/31/2016 03:39:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>11/07/2016 23:30:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>11/07/2016 23:30:31</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.DTSPipelineWrap.dll">
+      <publishTime>04/03/2010 11:53:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.DTSRuntimeWrap.dll">
+      <publishTime>04/03/2010 11:53:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.FileSystemTask.dll">
+      <publishTime>04/03/2010 11:53:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.ManagedDTS.dll">
+      <publishTime>04/03/2010 11:53:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.PipelineHost.dll">
+      <publishTime>04/03/2010 11:53:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.SqlServer.SendMailTask.dll">
+      <publishTime>04/03/2010 11:53:02</publishTime>
+    </File>
+    <File Include="bin/MK.Framework.ACE.dll">
+      <publishTime>04/29/2016 17:03:30</publishTime>
+    </File>
+    <File Include="bin/MK.Framework.ACE.Entities.dll">
+      <publishTime>04/29/2016 17:03:30</publishTime>
+    </File>
+    <File Include="bin/MK.Framework.AE.dll">
+      <publishTime>11/13/2014 09:10:54</publishTime>
+    </File>
+    <File Include="bin/MK.Framework.DXE.dll">
+      <publishTime>03/25/2015 17:46:40</publishTime>
+    </File>
+    <File Include="bin/MK.Framework.DXE.Entities.dll">
+      <publishTime>03/25/2015 17:46:40</publishTime>
+    </File>
+    <File Include="bin/MK.Framework.RCE.dll">
+      <publishTime>04/29/2016 13:44:40</publishTime>
+    </File>
+    <File Include="bin/MK.Framework.SNE.dll">
+      <publishTime>11/24/2015 09:43:58</publishTime>
+    </File>
+    <File Include="bin/MK.Framework.SNE.Entities.dll">
+      <publishTime>11/24/2015 09:43:58</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/07/2014 10:39:38</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/27/2016 14:50:24</publishTime>
+    </File>
+    <File Include="bin/TR.Data.dll">
+      <publishTime>11/16/2016 09:30:38</publishTime>
+    </File>
+    <File Include="bin/TR.Entities.dll">
+      <publishTime>11/16/2016 09:30:37</publishTime>
+    </File>
+    <File Include="bin/TR.UI.Process.dll">
+      <publishTime>11/16/2016 09:39:18</publishTime>
+    </File>
+    <File Include="bin/TR.UI.Web.dll">
+      <publishTime>11/16/2016 09:39:22</publishTime>
+    </File>
+    <File Include="bin/TR.Workflows.dll">
+      <publishTime>11/16/2016 09:30:44</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>11/12/2016 08:24:04</publishTime>
+    </File>
+    <File Include="Export.aspx">
+      <publishTime>11/11/2016 14:04:56</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/16/2016 08:00:48</publishTime>
+    </File>
+    <File Include="Scripts/ACE 4.1.sql">
+      <publishTime>11/08/2016 08:11:07</publishTime>
+    </File>
+    <File Include="Scripts/AE 2.0.sql">
+      <publishTime>11/11/2016 11:14:04</publishTime>
+    </File>
+    <File Include="Scripts/RCE 1.0.sql">
+      <publishTime>11/08/2016 08:11:05</publishTime>
+    </File>
+    <File Include="Scripts/SNE 1.0.sql">
+      <publishTime>11/09/2016 11:19:33</publishTime>
+    </File>
+    <File Include="Test.aspx">
+      <publishTime>11/08/2016 19:19:58</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>11/16/2016 09:39:23</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.Framework.dll
+C:\Users\es.cheah\Desktop\Backup\TR\bin\TR.Framework.pdb
+C:\Users\es.cheah\Desktop\Backup\TR\Shared\TR.Framework\obj\Release\TR.Framework.dll
+C:\Users\es.cheah\Desktop\Backup\TR\Shared\TR.Framework\obj\Release\TR.Framework.pdb

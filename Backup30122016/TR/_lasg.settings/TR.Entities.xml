@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfClassModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ClassModel ClassName="TrainingRequest" IsUpdated="false" GenerateXmlComments="true" UseDefaultComments="true" XmlComment="Represents a row of TrainingRequest data." ProductName="TR.Entities" Parent="" OverrideToStringMethod="false" HasSerializableAttribute="false" NotifyPropertyChange="false" ToStringDelimiter="44">
+    <NamespacesToImport>
+      <string>System</string>
+      <string>System.Collections.Generic</string>
+      <string>System.Collections.ObjectModel</string>
+      <string>System.ComponentModel</string>
+      <string>System.Linq</string>
+      <string>System.Runtime.Serialization</string>
+    </NamespacesToImport>
+    <Columns>
+      <ColumnModel IsUpdated="false" Name="TRequestID" PropertyName="TRequestID" DisplayName="TRequest ID" TableName="TrainingRequest" Type="string" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="false" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="true" XmlComment="Gets or sets a string value for the TRequestID column." />
+      <ColumnModel IsUpdated="false" Name="CorrelationID" PropertyName="CorrelationID" DisplayName="Correlation ID" TableName="TrainingRequest" Type="Guid" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a Guid value for the CorrelationID column." />
+      <ColumnModel IsUpdated="false" Name="UserName" PropertyName="UserName" DisplayName="User Name" TableName="TrainingRequest" Type="string" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a string value for the UserName column." />
+      <ColumnModel IsUpdated="false" Name="StartDate" PropertyName="StartDate" DisplayName="Start Date" TableName="TrainingRequest" Type="DateTime" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a DateTime value for the StartDate column." />
+      <ColumnModel IsUpdated="false" Name="EndDate" PropertyName="EndDate" DisplayName="End Date" TableName="TrainingRequest" Type="DateTime" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a DateTime value for the EndDate column." />
+      <ColumnModel IsUpdated="false" Name="RequestStatus" PropertyName="RequestStatus" DisplayName="Request Status" TableName="TrainingRequest" Type="string" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a string value for the RequestStatus column." />
+      <ColumnModel IsUpdated="false" Name="SubmitDate" PropertyName="SubmitDate" DisplayName="Submit Date" TableName="TrainingRequest" Type="DateTime" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a DateTime value for the SubmitDate column." />
+      <ColumnModel IsUpdated="false" Name="TrainingName" PropertyName="TrainingName" DisplayName="Training Name" TableName="TrainingRequest" Type="string" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a string value for the TrainingName column." />
+    </Columns>
+  </ClassModel>
+  <ClassModel ClassName="User" IsUpdated="false" GenerateXmlComments="true" UseDefaultComments="true" XmlComment="Represents a row of User data." ProductName="TR.Entities" Parent="" OverrideToStringMethod="false" HasSerializableAttribute="false" NotifyPropertyChange="false" ToStringDelimiter="44">
+    <NamespacesToImport>
+      <string>System</string>
+      <string>System.Collections.Generic</string>
+      <string>System.Collections.ObjectModel</string>
+      <string>System.ComponentModel</string>
+      <string>System.Linq</string>
+      <string>System.Runtime.Serialization</string>
+    </NamespacesToImport>
+    <Columns />
+  </ClassModel>
+  <ClassModel ClassName="UserLog" IsUpdated="false" GenerateXmlComments="true" UseDefaultComments="true" XmlComment="Represents a row of UserLog data." ProductName="TR.Entities" Parent="" OverrideToStringMethod="false" HasSerializableAttribute="false" NotifyPropertyChange="false" ToStringDelimiter="44">
+    <NamespacesToImport>
+      <string>System</string>
+      <string>System.Collections.Generic</string>
+      <string>System.Collections.ObjectModel</string>
+      <string>System.ComponentModel</string>
+      <string>System.Linq</string>
+      <string>System.Runtime.Serialization</string>
+    </NamespacesToImport>
+    <Columns>
+      <ColumnModel IsUpdated="false" Name="UserLogID" PropertyName="UserLogID" DisplayName="User Log ID" TableName="UserLog" Type="string" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="false" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="true" XmlComment="Gets or sets a string value for the UserLogID column." />
+      <ColumnModel IsUpdated="false" Name="TRequestID" PropertyName="TRequestID" DisplayName="TRequest ID" TableName="UserLog" Type="string" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a string value for the TRequestID column." />
+      <ColumnModel IsUpdated="false" Name="RequestStatus" PropertyName="RequestStatus" DisplayName="Request Status" TableName="UserLog" Type="string" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a string value for the RequestStatus column." />
+      <ColumnModel IsUpdated="false" Name="SubmitDate" PropertyName="SubmitDate" DisplayName="Submit Date" TableName="UserLog" Type="DateTime" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a DateTime value for the SubmitDate column." />
+    </Columns>
+  </ClassModel>
+  <ClassModel ClassName="Users" IsUpdated="false" GenerateXmlComments="true" UseDefaultComments="true" XmlComment="Represents a row of User data." ProductName="TR.Entities" Parent="" OverrideToStringMethod="false" HasSerializableAttribute="false" NotifyPropertyChange="false" ToStringDelimiter="44">
+    <NamespacesToImport>
+      <string>System</string>
+      <string>System.Collections.Generic</string>
+      <string>System.Collections.ObjectModel</string>
+      <string>System.ComponentModel</string>
+      <string>System.Linq</string>
+      <string>System.Runtime.Serialization</string>
+    </NamespacesToImport>
+    <Columns>
+      <ColumnModel IsUpdated="false" Name="UserID" PropertyName="UserID" DisplayName="User ID" TableName="Users" Type="long" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="false" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="true" XmlComment="Gets or sets a long value for the UserID column." />
+      <ColumnModel IsUpdated="false" Name="UserName" PropertyName="UserName" DisplayName="User Name" TableName="Users" Type="string" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a string value for the UserName column." />
+      <ColumnModel IsUpdated="false" Name="Password" PropertyName="Password" DisplayName="Password" TableName="Users" Type="string" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a string value for the Password column." />
+      <ColumnModel IsUpdated="false" Name="Domain" PropertyName="Domain" DisplayName="Domain" TableName="Users" Type="string" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a string value for the Domain column." />
+      <ColumnModel IsUpdated="false" Name="Email" PropertyName="Email" DisplayName="Email" TableName="Users" Type="string" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a string value for the Email column." />
+      <ColumnModel IsUpdated="false" Name="LastLogin" PropertyName="LastLogin" DisplayName="Last Login" TableName="Users" Type="DateTime" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a DateTime value for the LastLogin column." />
+      <ColumnModel IsUpdated="false" Name="LastFailedLogin" PropertyName="LastFailedLogin" DisplayName="Last Failed Login" TableName="Users" Type="DateTime" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a DateTime value for the LastFailedLogin column." />
+      <ColumnModel IsUpdated="false" Name="FailedAttempts" PropertyName="FailedAttempts" DisplayName="Failed Attempts" TableName="Users" Type="int" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a int value for the FailedAttempts column." />
+      <ColumnModel IsUpdated="false" Name="Status" PropertyName="Status" DisplayName="Status" TableName="Users" Type="byte" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a byte value for the Status column." />
+      <ColumnModel IsUpdated="false" Name="ChangePassword" PropertyName="ChangePassword" DisplayName="Change Password" TableName="Users" Type="bool" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a bool value for the ChangePassword column." />
+      <ColumnModel IsUpdated="false" Name="IsDeleted" PropertyName="IsDeleted" DisplayName="Is Deleted" TableName="Users" Type="bool" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a bool value for the IsDeleted column." />
+      <ColumnModel IsUpdated="false" Name="DateCreated" PropertyName="DateCreated" DisplayName="Date Created" TableName="Users" Type="DateTime" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a DateTime value for the DateCreated column." />
+      <ColumnModel IsUpdated="false" Name="DateModified" PropertyName="DateModified" DisplayName="Date Modified" TableName="Users" Type="DateTime" SetAsXmlAttribute="false" SetDisplayNameAttribute="false" IsBrowsable="true" MarkAsVirtual="false" IsNullable="false" IsList="false" IsObject="false" IsPrimaryKey="false" XmlComment="Gets or sets a DateTime value for the DateModified column." />
+    </Columns>
+  </ClassModel>
+</ArrayOfClassModel>
